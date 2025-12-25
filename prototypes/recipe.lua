@@ -16,9 +16,9 @@ data:extend
     enabled = false,
     ingredients =
     {
-      {type = "item", name = "turbo-transport-belt", amount = 1},
       {type= "item", name = "promethium-asteroid-chunk", amount = 1},
-      {type= "item", name = "quantum-processor", amount = 1},
+      {type = "item", name = "turbo-transport-belt", amount = 1},
+      {type= "fluid", name = "lubricant", amount = 20}
     },
     results = {{type="item", name="promethium-transport-belt", amount=1}}
   },
@@ -38,9 +38,9 @@ data:extend
     enabled = false,
     ingredients =
     {
-      {type = "item", name = "turbo-underground-belt", amount = 2},
       {type= "item", name = "promethium-asteroid-chunk", amount = 8},
-      {type= "item", name = "quantum-processor", amount = 8},
+      {type = "item", name = "turbo-underground-belt", amount = 2},
+      {type = "fluid", name = "lubricant", amount = 40}
     },
     results = {{type="item", name="promethium-underground-belt", amount=2}}
   },
@@ -60,9 +60,10 @@ data:extend
     energy_required = 4,
     ingredients =
     {
-      {type = "item", name = "turbo-splitter", amount = 1},
       {type= "item", name = "promethium-asteroid-chunk", amount = 3},
-      {type= "item", name = "quantum-processor", amount = 3},
+      {type = "item", name = "turbo-splitter", amount = 1},
+      {type= "item", name = "quantum-processor", amount = 2},
+      {type = "fluid", name = "lubricant", amount = 80}
     },
     results = {{type="item", name="promethium-splitter", amount=1}}
   },
